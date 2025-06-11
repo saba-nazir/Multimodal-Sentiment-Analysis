@@ -8,11 +8,13 @@ It leverages compositional distributional semantics where phrases are built from
 - Combines audio and text embeddings for sentiment classification.
 - Trains a hybrid model to classify sentiment on the SST-5 dataset.
 
-### Structure
-- `src/`: Core model and dataset code
-- `scripts/`: Training and evaluation routines
-- `data/`: Placeholder for dataset files
-- `models/`: For saving trained models
+### Files
+- `dataset.py`: Loads the dataset and audio embeddings
+- `model.py`: Defines the hybrid audio-text model
+- `train.py`: Trains and evaluates the model
+- `requirements.txt`: Python dependencies
+- `README.md`: This file
+- `.gitignore`: Files and folders to be ignored by Git
 
 ### Setup
 ```bash
@@ -21,12 +23,12 @@ pip install -r requirements.txt
 
 ### Usage
 ```bash
-python scripts/train.py
+python train.py
 ```
 
-Ensure that the audio-text embedding CSVs and label files are placed in the `data/` folder before running.
+Ensure that the required CSV files (e.g., `sst5-raw_*`) are placed in the same folder before running the code.
 
 ### Citation
 If you use this code, please cite:
 
-- [How Does an Adjective Sound Like? Exploring Audio Phrase Composition with Textual Embeddings (CLASP 2024)]
+- How Does an Adjective Sound Like? Exploring Audio Phrase Composition with Textual Embeddings (CLASP 2024)
