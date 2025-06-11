@@ -1,7 +1,8 @@
 # Compositional Multimodal Sentiment Analysis
 
 This project implements a hybrid model for sentiment classification using textual and audio embeddings.
-It leverages compositional distributional semantics where phrases are built from pre-trained adjective-noun embeddings.
+It leverages compositional distributional semantics where phrases are built from pre-trained adjective-noun embeddings using 
+MultiCoDi (Multimodal Compositional Distributional Semantics.
 
 ### Features
 - Uses BERT embeddings for text and pretrained OpenL3 or compositional audio embeddings.
