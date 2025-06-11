@@ -1,4 +1,4 @@
-# Multimodal Sentiment Analysis with Compositional Embeddings
+# Compositional Multimodal Sentiment Analysis
 
 This project implements a hybrid model for sentiment classification using textual and audio embeddings.
 It leverages compositional distributional semantics where phrases are built from pre-trained adjective-noun embeddings.
